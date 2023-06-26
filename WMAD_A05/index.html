@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <h2>Monis Ahmed Thakur <br />
+        Assignment #05 <br />
+        Roll # WMA-135642
+    </h2>
+
+    <title>Chess Board</title>
+</head>
+
+<body>
+    <center>
+        <Form action="">
+            <table class="color" width="80%">
+                <tr>
+                    <th rowspan="5" scope="row">Name: </th>
+                </tr>
+                <tr align="Left">
+                    <td></td>
+                    <th>Fisrt Name: </th>
+                    <td>
+                        <input type="text" name="First_Name" value="Monis" maxlength="10" size="10">
+                    </td>
+                    <td rowspan="4">
+                        <select name="City">
+                            <option value="" hidden>Select your City</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Islamabad" selected>Islamabad</option>
+                            <option value="Quetta">Quetta</option>
+                        </select>
+                    </td>
+                    <td rowspan="4">
+                        <form action="http://www.google.com">
+                            <input type="submit" value="Search" />
+                        </form>
+                    </td>
+                </tr>
+                <tr align="Left">
+                    <td></td>
+                    <th>Middle Name: </th>
+                    <td><input type="text" name="Middle_Name" value="Ahmed" maxlength="10" size="10"> </td>
+                </tr>
+                <tr align="Left">
+                    <td></td>
+                    <th>Last Name: </th>
+                    <td><input type="text" name="Last_Name" value="Thakur" maxlength="10" size="10"> </td>
+                </tr>
+                <tr align=" Left">
+                    <td></td>
+                    <th>Father Name: </th>
+                    <td><input type="text" name="Father_Name"> </td>
+                </tr>
+            </table>
+            <table width="80%">
+                <tr align="Left">
+                    <th>Gender</th>
+                    <td>
+                        <label for="Male">
+                            <input type="radio" name="Gender" value="Male" checked>Male
+                        </label>
+                    </td>
+                    <td>
+                        <label for="Female">
+                            <input type="radio" name="Gender" value="Female">Female
+                        </label>
+                    </td>
+                </tr>
+                <tr align="Left">
+                    <th>
+                        Program
+                    </th>
+                    <td>Which Program do you want to select</td>
+
+                    <td colspan="1">
+                        <select name="Program">
+                            <option value="" hidden>Select your Program</option>
+                            <option value="CS">Computer Science</option>
+                            <option value="Eg">Engineering</option>
+                            <option value="Ba" selected>Business Administration</option>
+                            <option value="Ms">Media Science</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr align="Left">
+                    <th>
+                        Date
+                    </th>
+                    <td>
+                        <input type="date">
+                    </td>
+                    <th>
+                        Time
+                    </th>
+                    <td>
+                        <input type="time">
+                    </td>
+                </tr>
+                <tr align="Left">
+                    <th>Shift:</th>
+                    <th>
+                        <input type="checkbox" name="Shift" value="Monring">Morning
+                    </th>
+                    <th>
+                        <input type="checkbox" name="Shift" value="Afternoon">Afternoon
+                    </th>
+                    <th>
+                        <input type="checkbox" name="Shift" value="Evening">Evening
+                    </th>
+                    <th>
+                        <input type="checkbox" name="Shift" value="Night">Night
+                    </th>
+                </tr>
+                <tr align="Left">
+                    <th>
+                        Email:
+                    </th>
+                    <td>
+                        <input type="email" name="Email">
+                    </td>
+                    <td>
+                        <input type="submit" value="Submit">
+                    </td>
+                </tr>
+                <tr align="Left">
+                    <th>
+                        Username:
+                    </th>
+                    <td>
+                        <input type="text">
+                    <th>Password:</th>
+                    <td><input type="password"></td>
+                    </td>
+                </tr>
+                <tr align="left">
+                    <th>
+                        Enter your Comments...
+                    </th>
+                    <td colspan="4">
+                        <textarea name="" id="" cols="120" rows="2"></textarea>
+                    </td>
+                </tr>
+                <tr align="left">
+                    <th>
+                        Upload your picture:
+                    </th>
+                    <th>
+                        <input type="file" name="picture" /><br />
+                        <input type="submit" value="Upload" />
+                    </th>
+                </tr>
+                <tr align="left">
+                    <th>Submit Form</th>
+                    <td><input type="submit" value="Submit Form"></td>
+                </tr>
+            </table>
+        </Form>
+    </center>
+    <a href="../index.html">Go Back</a>
+</body>
+
+</html>

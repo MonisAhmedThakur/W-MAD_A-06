@@ -1,0 +1,13 @@
+body {
+    color: azure;
+    background-color:rgba(19, 71, 91, 0.6);}
+    .color{
+        background-color: aqua;
+        color: rgba(20, 2, 2, 0.71);
+    }
+td#Right {
+        background-color:rgba(86, 112, 25, 0.5)
+    }
+td#Left {
+        background-color:rgba(100, 115, 121, 0.8)
+    }
