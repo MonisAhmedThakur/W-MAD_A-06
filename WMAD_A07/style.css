@@ -1,0 +1,109 @@
+@font-face {
+    font-family: "Caveat";
+    src: url(Fonts/Caveat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Dancing";
+    src: url(Fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "GreatVibes";
+    src: url(Fonts/GreatVibes-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Sacramento";
+    src: url(Fonts/Sacramento-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Satisfy";
+    src: url(Fonts/Satisfy-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Yellowtail";
+    src: url(Fonts/Yellowtail-Regular.ttf);
+}
+
+body {
+    background-image: url(Image/pexels-carsten-ruthemann-6103063.JPG);
+    background-repeat: no-repeat;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 0px;
+
+}
+
+.main {
+    background-color: rgba(0, 0, 10, 0.826);
+    color: azure;
+    width: 175px;
+    height: 175px;
+    margin: 10px;
+    vertical-align: middle;
+    line-height:2.3ch;
+    font-weight: bolder;
+    font-style: italic;
+    align-content: center;
+    border-radius: 150px;
+    box-shadow:0 2px 6px 0 rgba(255, 255, 255, 0.89)
+}
+
+.a:hover {
+    color:rgb(102, 205, 170);
+}
+
+.b:hover {
+    color:rgb(51, 129, 118);
+}
+
+h1 {
+    font-size: 100px;
+    margin: 2px;
+    color: azure;
+    text-shadow: 2px 2px 2px black;
+    display: inline;
+}
+
+h3 {
+    font-size: 40px;
+    margin: 2px;
+    color:cornsilk;
+    text-shadow: 1px 1px 1px black;
+}
+.boxa, .boxb, .boxc, .boxd  {
+    background-color: ivory;
+    width: 500px;
+    min-height: 100px;
+    max-height: 300px;
+    /* overflow-y: hidden; 
+    border: 2px solid aquamarine; */
+    padding: 20px;
+    margin: 8px auto;
+    box-shadow:0 3px 9px 0 rgba(0,0,0,.12),inset 0 -1px 0 0 #dadce0;left:0;
+    border-radius: 5px;
+}
+
+.boxa {
+    font-size:xx-large;
+    font-family: Caveat, Dancing, GreatVibes, Sacramento, Satisfy, Yellowtail ;
+}
+
+.boxb {
+    font-size:xx-large;
+    font-family: Dancing, GreatVibes, Sacramento, Satisfy, Yellowtail ;
+}
+
+.boxc {
+    font-size:xx-large;
+    font-family: GreatVibes, Sacramento, Yellowtail ;
+}
+
+.boxd {
+    font-size:xx-large;
+    font-family: Satisfy;
+}
