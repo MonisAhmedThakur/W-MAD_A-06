@@ -1,0 +1,232 @@
+body {
+    margin: 0px;
+    background-color: #000;
+}
+
+.header {
+    width: 100%;
+    background-color: #000 ;
+    height: 60px;
+    padding: 20px 50px;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
+.menu >li {
+    display: inline-block;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.menu-box {
+    vertical-align:top;
+    height: 100%;
+    margin-bottom: 70px;
+}
+
+.btn {
+    background-color: #ed1c24;
+    border-radius: 35px;
+    border: 1px solid #ed1c24;
+    color: #ffffff;
+    padding: 12px 13.5px 12px 13.5px;
+    font-size: 14px;
+}
+
+.heading {
+    background-color: rgb(15, 15, 15);
+    height: 70px;
+    color:white;
+    text-align: center;
+    font-size: 250%;
+    padding-top: 25px;
+} 
+
+.cover  {
+    width:100%;
+    margin: 0px;
+}
+
+.sub-h {
+    display: block;
+    font-size: 100%;
+    color: #ffffff;
+    text-align: center;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    
+}
+
+ div .l-scroll {
+    width: 100%;
+    max-block-size: 400px;
+    overflow-x:scroll;
+}
+
+.product {
+    display: block;
+    width: 100%;
+    padding: 0px 20px;
+    position: relative;
+}
+
+.slider {
+    list-style: none;
+    width: 22%;
+    padding: 0px 10px 0px 10px;
+    float: left;
+    margin: 0px !important;
+}
+
+.figure-box {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.picture {
+    width: 100%;
+    height: 350px;
+    display: block;
+    object-fit: cover;
+}
+
+.figure-tags {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    padding: 24px 10px 0px 10px;
+}
+
+span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 17px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.l-box {
+    float: none;
+    margin: 0px 0px 0px 0px;
+    width: 49.5%;
+    height: 300px;
+    background-color: aqua;
+    display: inline-block;
+}
+
+.r-box {
+    margin: 0px 0px 0px 0px;
+    width: 50%;
+    height: 300px;
+    background-color: blue;
+    display: inline-block;
+}
+
+.l-box2 {
+    margin: 0px ;
+    width: 33%;
+    height: 600px;
+    background-color: red;
+    display: inline-block;
+}
+
+.r-box2 {
+    margin: 0px ;
+    width: 33%;
+    height: 600px;
+    background-color: green;
+    display: inline-block;
+}
+
+.m-box2 {
+    margin: 0px ;
+    width: 33%;
+    height: 600px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 250%;    
+}
+
+.box-s1 {
+    margin: 0px ;
+    width: 19.5%;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+}
+
+.box-s2 {
+    margin: 0px ;
+    width: 19.5%;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}
+
+.box-s3 {
+    margin: 0px ;
+    width: 19.5%;
+    height: 300px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.box-s4 {
+    margin: 0px ;
+    width: 19.5%;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}
+
+.box-s5 {
+    margin: 0px ;
+    width: 19.5%;
+    height: 300px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+
+.f-box1 {
+    margin: 0px ;
+       width: 35%;
+    height: 300px;
+    background-color: red;
+    display: inline-block;
+}
+
+.f-box2 {
+    margin: 0px ;
+    width: 21%;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}
+
+.f-box3 {
+    margin: 0px ;
+    width: 21%;
+    height: 300px;
+    background-color: yellow;
+    display: inline-block;
+}
+
+.f-box4 {
+    margin: 0px ;
+    width: 21%;
+    height: 300px;
+    background-color: green;
+    display: inline-block;
+}
