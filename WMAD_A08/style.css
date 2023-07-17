@@ -79,7 +79,7 @@ ol {
 }
  div .l-scroll {
     width: 100%;
-    max-block-size: 400px;
+    max-block-size: 300px;
     overflow-x:scroll;
 }
 
@@ -96,7 +96,7 @@ ol {
 
 div > .figure-box {
     margin-right: 0px;
-    width: 11%;  
+    /* width: 10%;   */
 }
 
 .picture {
@@ -200,8 +200,10 @@ h5 {
 .box1 {
     width: 27%;
     object-fit: cover !important;
-    height: 225px;
-    background-color: #000}
+    height: 600px;
+    background-color: #000
+    color(#ffffff)
+}
 
 h3 {
     color: #ffffff;
@@ -212,17 +214,41 @@ h3 {
 
 .box2 {
     width: 50%;
-    height: 631px;
+    height: 600px;
     background-color: #000;
     color: #ffffff;
 }
 
+.title {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
+.details {
+    display: flex;
+    justify-content: center;
+    line-height: 2.2em;
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    max-height: 45px;
+    color:#ffffff;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+}
+
 .box3 {
-    width: 17.8%;
+    width: 15%;
     height: 225px;
     background-color: #000;
-
     padding-bottom: 60px;
+    display: flex;
+    justify-content: space-around;
 }
 
 .f-box {
