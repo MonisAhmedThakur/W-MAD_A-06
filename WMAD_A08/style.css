@@ -1,13 +1,27 @@
+@font-face {
+    font-family: "Butler";
+    src: url(../WMAD_A08/Fonts/Butler-Font-1/Butler_Regular.otf);
+}
+
+@font-face {
+    font-family: "Apercu";
+    src: url(../WMAD_A08/Fonts/ApercuFontFamily/Apercu\ Regular.otf);
+}
+
 body {
-    margin: 0px;
+    margin: 0px auto;
     background-color: #000;
+    font-family: "Apercu";
 }
 
 .header {
     width: 100%;
     background-color: #000 ;
-    height: 60px;
-    padding: 20px 50px;
+    height: 100px;
+}
+
+.abc {
+    padding: 20px 20px;
 }
 
 .d-inline {
@@ -23,7 +37,7 @@ body {
 .menu-box {
     vertical-align:top;
     height: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
 }
 
 .btn {
@@ -37,11 +51,12 @@ body {
 
 .heading {
     background-color: rgb(15, 15, 15);
-    height: 70px;
+    height: 100px;
     color:white;
     text-align: center;
     font-size: 250%;
     padding-top: 25px;
+    font-family: "Butler";
 } 
 
 .cover  {
@@ -50,15 +65,18 @@ body {
 }
 
 .sub-h {
-    display: block;
-    font-size: 100%;
+    display: flex;
+    font-size: 14px;
+    font-weight: 500;
     color: #ffffff;
-    text-align: center;
+    justify-content: center;
     width: 100%;
-    padding: 0px 0px 0px 0px;
-    
+    font-family: "Butler";
 }
 
+ol {
+    list-style-type: none;
+}
  div .l-scroll {
     width: 100%;
     max-block-size: 400px;
@@ -66,41 +84,36 @@ body {
 }
 
 .product {
-    display: block;
+    display: inline-block;
     width: 100%;
-    padding: 0px 20px;
     position: relative;
+    margin: 0px auto;
 }
 
 .slider {
-    list-style: none;
-    width: 22%;
-    padding: 0px 10px 0px 10px;
-    float: left;
-    margin: 0px !important;
+    display: inline-block;
 }
 
-.figure-box {
-    width: 100%;
-    justify-content: space-between;
+div > .figure-box {
+    margin-right: 0px;
+    width: 11%;  
 }
 
 .picture {
     width: 100%;
-    height: 350px;
-    display: block;
+    height: 320px;
     object-fit: cover;
 }
 
 .figure-tags {
     width: 100%;
-    align-items: center;
-    justify-content: center;
     position: relative;
     height: 100%;
     color: #fff;
     text-decoration: none;
-    padding: 24px 10px 0px 10px;
+    /* padding: 14px 0px 0px 10px; */
+    display: inline-block;
+    text-align: center;
 }
 
 span {
@@ -110,123 +123,134 @@ span {
     line-height: 17px;
     text-transform: capitalize;
     color: #ffffff;
+    text-align: center;
 }
 
-.l-box {
-    float: none;
-    margin: 0px 0px 0px 0px;
-    width: 49.5%;
-    height: 300px;
-    background-color: aqua;
-    display: inline-block;
+.container  {
+    display:flex;
+    width: 100%;
+    margin-top: 50px;
+    
 }
 
-.r-box {
-    margin: 0px 0px 0px 0px;
+.container1  {
+    display:flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container3  {
+    display:flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box {
     width: 50%;
-    height: 300px;
-    background-color: blue;
-    display: inline-block;
+    height: 400px;
+    background-color: #000;
+    color: #ffffff;
 }
 
-.l-box2 {
-    margin: 0px ;
-    width: 33%;
-    height: 600px;
-    background-color: red;
-    display: inline-block;
+small {
+    letter-spacing: 0.48em;
+    color: #ed1c24;
+    margin: 20px 50px 20px 50px;
 }
 
-.r-box2 {
-    margin: 0px ;
-    width: 33%;
-    height: 600px;
-    background-color: green;
-    display: inline-block;
+h5 {
+    font-family: "Butler";
+    margin: 20px 80px 20px 50px;
+    font-size: 38px;
 }
 
-.m-box2 {
-    margin: 0px ;
-    width: 33%;
-    height: 600px;
-    background-color: yellow;
-    display: inline-block;
+.text {
+    margin: 20px 60px 20px 50px;
+    text-align: justify;
 }
+
+.btn1 {
+    margin-top: 100px;
+    margin-left: 50px;
+    border-radius: 35px;
+    background-color: #000;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 14px; 
+    width: 174px;
+    height: 50px;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.redcolor{
+    font-size: x-large;
+    color: #ed1c24;
+    margin-left: 10px;
+    padding: 9px 9px 7px;
+}
+
+.box > img {
+    flex-shrink: 2;
+    flex-basis: 0;
+    justify-content: space-between;
+}
+
+.box1 {
+    width: 27%;
+    object-fit: cover !important;
+    height: 225px;
+    background-color: #000}
 
 h3 {
     color: #ffffff;
-    font-size: 250%;    
+    font-size: 250%; 
+    text-align: center;   
+    font-family: "Butler";
 }
 
-.box-s1 {
-    margin: 0px ;
-    width: 19.5%;
+.box2 {
+    width: 50%;
+    height: 631px;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.box3 {
+    width: 17.8%;
+    height: 225px;
+    background-color: #000;
+
+    padding-bottom: 60px;
+}
+
+.f-box {
+    width: 36%;
     height: 300px;
-    background-color: red;
-    display: inline-block;
+    padding: 25px;
+    background-color: #151515;
+    color: #ffffff;
 }
 
-.box-s2 {
-    margin: 0px ;
-    width: 19.5%;
-    height: 300px;
-    background-color: green;
-    display: inline-block;
+.f-box > ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+
 }
 
-.box-s3 {
-    margin: 0px ;
-    width: 19.5%;
-    height: 300px;
-    background-color: yellow;
-    display: inline-block;
+h4{
+padding-left: 40px ;
 }
-
-.box-s4 {
-    margin: 0px ;
-    width: 19.5%;
-    height: 300px;
-    background-color: green;
-    display: inline-block;
-}
-
-.box-s5 {
-    margin: 0px ;
-    width: 19.5%;
-    height: 300px;
-    background-color: yellow;
-    display: inline-block;
-}
-
 
 .f-box1 {
-    margin: 0px ;
-       width: 35%;
-    height: 300px;
-    background-color: red;
-    display: inline-block;
-}
-
-.f-box2 {
-    margin: 0px ;
     width: 21%;
     height: 300px;
-    background-color: green;
-    display: inline-block;
+    background-color:#151515;
+    color: #ffffff;
 }
 
-.f-box3 {
-    margin: 0px ;
-    width: 21%;
-    height: 300px;
-    background-color: yellow;
-    display: inline-block;
-}
-
-.f-box4 {
-    margin: 0px ;
-    width: 21%;
-    height: 300px;
-    background-color: green;
-    display: inline-block;
+.f-box1 > ul {
+    list-style-type: none;
 }
