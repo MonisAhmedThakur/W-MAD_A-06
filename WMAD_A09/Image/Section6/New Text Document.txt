@@ -1,0 +1,1 @@
+<video controls="" controlslist="nodownload noremoteplayback" class="hero__video" kind="captions" type="video/mp4" src="https://www.pepsi.com/en-us/uploads/media/PepsiWildCherry.Copier.15.mp4" poster="https://www.pepsi.com/en-us/uploads/media/Cherry-Copier.png" autoplay="true" loop="true" playsinline="true" muted="true"></video>

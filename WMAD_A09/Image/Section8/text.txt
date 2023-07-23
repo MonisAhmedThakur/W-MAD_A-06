@@ -1,0 +1,12 @@
+
+<h2 class="promotion__title">
+                     <span class="promotion__title__line" style="color: #ffffff">ALL YOUR</span>
+                     <span class="promotion__title__line" style="color: #ffffff">FAVORITE FLAVORS.</span>
+                     <span class="promotion__title__line" style="color: #ffffff">ALL RIGHT HERE.</span>
+                  </h2>
+
+
+                     Pepsi. Diet Pepsi. Pepsi Zero Sugar. The gang’s all here. Compare
+                     flavors, get nutritional facts and check out ingredients for all
+                     our Pepsi products.
+                  
