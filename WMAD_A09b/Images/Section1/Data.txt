@@ -1,0 +1,5 @@
+<div class="style_input_container__Iy2Qd">
+<span class="style_minus_button__BlR9x">-</span>
+<span class="style_no_button__lk_hK">01</span>
+<span class="style_plus_button__kUpZd">+</span>
+</div>

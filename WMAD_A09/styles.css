@@ -485,17 +485,17 @@ body {
 
 .btn-f{
   position: absolute;
-    font-size: 0.8em;
-    padding: 0px 60px;
-    border: 2px solid #fff;
-    border-radius: 1.6em;
-    background: transparent;
-    color: #fff;
-    font-family: Sofia;
-    cursor: pointer;
-    font-weight: bolder;
-    -webkit-animation-name: tada !important;
-    animation-name: tada !important;
+  font-size: 0.8em;
+  padding: 0px 60px;
+  border: 2px solid #fff;
+  border-radius: 1.6em;
+  background: transparent;
+  color: #fff;
+  font-family: Sofia;
+  cursor: pointer;
+  font-weight: bolder;
+  -webkit-animation-name: tada !important;
+  animation-name: tada !important;
 }
 
 .btn-f:hover{
