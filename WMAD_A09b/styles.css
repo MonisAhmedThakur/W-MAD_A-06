@@ -39,7 +39,7 @@ a {
 }
 
 .navbar-brand {
-    margin-right: 10px;
+    margin-right: 5px;
     
 }
 
@@ -59,12 +59,11 @@ a {
 }
 
 .style-bg {
-    background-color: #8bb941;
     background-image: url(/images/Section1/bg1-min.png);
     background-repeat: no-repeat;
     background-size: cover;
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
     position: relative;
 
 }
@@ -81,14 +80,14 @@ a {
 
 .s1-btn1{
     position: absolute;
-    bottom: 200px;
+    bottom: 30px;
     left: 415px;
     z-index: 1;
 }
 
 .s1-btn2{
     position: absolute;
-    bottom: 201px;
+    bottom: 31px;
     left: 640px;
     z-index: 1;
 }
@@ -126,6 +125,11 @@ a {
 
 .img-s1-C{
     position: absolute;
-    padding: 90px 310px ;
+    padding: 90px 340px ;
     z-index: 1;
+}
+
+.s1-input-container{
+    box-sizing: content-box;
+    border: #d53434;
 }
