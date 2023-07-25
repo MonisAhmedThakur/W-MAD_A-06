@@ -32,7 +32,6 @@ body {
 
 .pepsi-btn {
   font-size: 0.8em;
-
   padding: 2px 20px;
   border: 2px solid #fff;
   border-radius: 1.8em;
@@ -182,7 +181,9 @@ body {
 .get_it_now {
   position: absolute;
   font-size: 0.8em;
-  padding: 0px 60px;
+  display: flex;
+  justify-content: center;
+  width: 150px;
   border: 2px solid #fff;
   border-radius: 1.6em;
   background: transparent;
@@ -287,7 +288,9 @@ body {
   .btn-secR-3 {
     position: absolute;
     font-size: 0.8em;
-    padding: 0px 60px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
     border: 2px solid #fff;
     border-radius: 1.6em;
     background: transparent;
@@ -486,7 +489,9 @@ body {
 .btn-f{
   position: absolute;
   font-size: 0.8em;
-  padding: 0px 60px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
   border: 2px solid #fff;
   border-radius: 1.6em;
   background: transparent;
