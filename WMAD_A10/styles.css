@@ -1,0 +1,121 @@
+@font-face{ 
+font-family: "Gilroy";
+src: url(Fonts/Gilroy-ExtraBold.otf);
+}
+
+body {
+
+    font-family: "Gilroy";
+    margin: 0px auto;
+    padding: 0px;
+}
+
+/* Navigation Bar */
+
+.navbar { 
+    color: #ffffff !important;
+    padding: 40px 40px 20px 30px;
+}
+
+.nav {
+    padding: 0px 20px;
+}
+
+a {
+    color: #000000 !important;
+    font-family: Gilroy;
+    font-weight: 500;
+    font-size: 17.16px;
+    line-height: 20.82px;
+}
+
+.noHover {
+    pointer-events: none;
+}
+
+.btn {
+    background-color: #75BF7A;
+    color: #ffffff;
+    font-family: Gilroy;
+    pointer-events: visible;
+}
+
+.btnNav:hover {
+    background-color: #ffffff;
+    color: #75BF7A;
+}
+
+.row {
+    position: relative;
+}
+
+.spaceing {
+
+    padding: 0px;
+
+}
+
+.bgcolor {
+    margin-top: 90px;
+    background-color: #75BF7A;   
+}
+
+/* Section #01 */
+
+
+/* Section #02 */
+
+.b-g {
+    background-color: #75BF7A;
+    color: #ffffff;
+    text-align:justify;
+    padding: 30px;
+}
+.s2-C {
+    padding-left: 50px;
+    margin: 0px -20px 0px 0px;
+}
+
+.s2-btn {
+    
+ background-color: #000000;
+
+}
+
+.s-margin {
+    margin-top: 90px;
+}
+
+.s3 {
+    font-family: Gilroy;
+    color: #000000;
+}
+
+.s3 h1 >span {
+    color: #75BF7A;
+}
+
+.s4-L {
+
+    text-align: right !important;
+}
+
+.s4-R {
+
+    text-align: left !important;
+}
+
+.s4-Position-Mobile {
+    position: relative;
+    top: -500px;
+}
+
+.s4-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    top: -100px;
+
+}
+
+
