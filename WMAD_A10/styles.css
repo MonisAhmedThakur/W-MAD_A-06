@@ -91,7 +91,7 @@ a {
     color: #000000;
 }
 
-.s3 h1 >span {
+ h1 >span {
     color: #75BF7A;
 }
 
@@ -100,9 +100,28 @@ a {
     text-align: right !important;
 }
 
+.img-text {
+    background: url(Images/Section4/Circle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 70px;
+    width: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .s4-R {
 
     text-align: left !important;
+}
+
+.s4-Position-Ellipse {
+    background: url(Images/Section4/Ellipse_1.png);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: contain;
 }
 
 .s4-Position-Mobile {
@@ -113,9 +132,55 @@ a {
 .s4-container {
     display: flex;
     justify-content: center;
-    gap: 15px;
-    top: -100px;
+    list-style: none;
+    gap: 10px;
+    color: #75BF7A;
+    padding-top: 15px;
+}
 
+.s5-bg-1 {
+    background: url(Images/Section5/1/Rectangle_bg.png);
+    background-repeat: no-repeat;
+    background-position: 80px;
+    background-size: contain;
+    display: inline-flex;
+}
+
+.s5-bg-2 {
+    background: url(Images/Section5/2/Rectangle-bg.png);
+    background-repeat: no-repeat;
+    background-position: 80px;
+    background-size: contain;
+    display: inline-flex;
+}
+
+.s5-bg-3 {
+    background: url(Images/Section5/3/Rectangle-bg.png);
+    background-repeat: no-repeat;
+    background-position: 80px;
+    background-size: contain;
+    display: inline-flex;
 }
 
 
+
+.s5-text > div {
+    display: inline-flex;
+    text-align: start;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.s5-text > div > p {
+    color: #9E9DA2;
+}
+
+.footer-bg {
+    background: url(Images/Section6/Rectangle-bg.png);
+    /* background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;  */
+}

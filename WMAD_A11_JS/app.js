@@ -69,7 +69,22 @@
 // alert("I am " + age + " years old");
 
 //--------------Chapter#03_(Q2)----------------
-// var visits = 14;
+// var visits = 1;
+// alert("You have visited this site " + visits + " times");
+
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
+// visits = ++visits;
 // alert("You have visited this site " + visits + " times");
 
 //--------------Chapter#03_(Q3)----------------
@@ -270,12 +285,12 @@
 // console.log("The Area is: " +  areaOfCircle);
 
 //--------------Chapter#05_(Q13)----------------
-var favoriteSnack = "Chocolate Chip", currentAge = 15, maximumAge = 65, estimatedAmountPerDay = 3;
-var eatTotalForTheRestOfYourLife = (65 - 15) * 3;
+// var favoriteSnack = "Chocolate Chip", currentAge = 15, maximumAge = 65, estimatedAmountPerDay = 3;
+// var eatTotalForTheRestOfYourLife = (65 - 15) * 3;
 
-console.log("The Lifetime Supply Calculator \n\n\n");
-console.log("Favorite Snack: " + favoriteSnack);
-console.log("Current age: " + currentAge);
-console.log("Estimated Maximum Age: " +  maximumAge);
-console.log("Amount of snacks per day: " + estimatedAmountPerDay);
-console.log("You will need " +  eatTotalForTheRestOfYourLife + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge);
+// console.log("The Lifetime Supply Calculator \n\n\n");
+// console.log("Favorite Snack: " + favoriteSnack);
+// console.log("Current age: " + currentAge);
+// console.log("Estimated Maximum Age: " +  maximumAge);
+// console.log("Amount of snacks per day: " + estimatedAmountPerDay);
+// console.log("You will need " +  eatTotalForTheRestOfYourLife + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge);
