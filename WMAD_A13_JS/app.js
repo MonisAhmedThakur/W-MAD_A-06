@@ -20,8 +20,7 @@
 
 // //--------------Chapter#13-15_(Q05)----------------
 
-// var abcArray = new Array;
-// abcArray = (false);
+// var abcArray = (false);
 // console.log(typeof abcArray);
 
 // //--------------Chapter#13-15_(Q06)----------------
