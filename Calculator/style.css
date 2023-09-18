@@ -1,0 +1,36 @@
+.H1{
+    
+}
+
+.clear {
+    margin-top: 20px;
+    padding: 0px 80px;
+}
+
+.number{
+    padding: 0px 15px;
+}
+
+.point{
+    padding: 0px 17px;
+}
+
+.equals{
+    padding: 0px 15px;
+}
+
+.add{
+    padding: 0px 11px;
+}
+
+.subtr{
+    padding: 0px 12.5px;
+}
+
+.multi{
+    padding: 0px 12px;
+}
+
+.divi{
+    padding: 0px 13px;
+}
