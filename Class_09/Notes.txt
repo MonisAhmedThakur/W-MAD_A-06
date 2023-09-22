@@ -1,0 +1,18 @@
+Forground Color: 	RGB values. (advantage = we can add blurness, lightness and so on...)
+			Hexa Value color.
+			Color Name.
+
+Backround Color: 	RGB values. (advantage = we can add blurness, lightness and so on...)
+			Hexa Value color.
+			Color Name.
+
+Material color (search on google)
+
+HUE
+SATURATION
+BRIGTHNESS
+
+
+
+
+

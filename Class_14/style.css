@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+}
+
+.container  {
+    display:flex;
+    width: 100%;
+    background-color: orange;
+    height: 100vh;
+}
+
+.box {
+    width: 50%;
+    height: 400px;
+    background-color: ffffff;
+}
+

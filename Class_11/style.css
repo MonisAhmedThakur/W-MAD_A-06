@@ -1,0 +1,25 @@
+
+@font-face {
+    font-family: "YsabeauSC";
+    src: url(Fonts/YsabeauSC-Medium.ttf);
+}
+
+body {
+    background-color: azure;
+}
+
+.post>h1 
+{
+    color: midnightblue;
+    font-family: 'YsabeauSC';
+    font-style: italic;
+}
+
+.post>p 
+{
+    color: brown;
+    font-family:"YsabeauSC";
+    font-weight:bold ;
+    font-style: oblique;
+    text-transform: capitalize;
+}

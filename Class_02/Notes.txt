@@ -1,0 +1,35 @@
+01- To open from command prompt go the the folder path then write cmd
+	once open then write "code."
+02- Attribute gives info to tag
+03- DOCTYPE html means supporting version of HTML
+04- meta tags/links are for SEO
+05- Chap #3
+A- Numbered list
+B- Bullet list
+C- Defination list
+
+Ordered List Tags-> <ol><li>Monis</li></ol>
+Unordered List Tags-> <ul><li>Monis</li></ul>
+Defination List Tags-> <dl><dt>Monis</dt><dd>Name of a person</dd></dl>
+
+06- Links
+
+External Links-> moves user to different websites
+Internal Links-> mover user to differnt page of same website
+Email Links-> Open email box
+
+Tags-> <a href="Link address">Click Me</a>
+
+http & https are important to mention in href=" " attribute while giving a link
+
+Target Attribute-> It opens links on new tab ->target = "-blank"
+
+07- Directory Structure
+
+For linking path -> href="parent/child" -> "pages/home.html"
+For going outside a folder we write -> ../double dots and slash
+
+08- Web hosting for temporary server
+
+Netlify Drop -> SignUp & Upload web folder
+

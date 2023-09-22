@@ -1,0 +1,21 @@
+.box    {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.box1    {
+    width: 200px;
+    height: 200px;
+    background-color:brown;
+}
+
+.main {
+    width: 500px;
+    height: 500px;
+    border: 2px solid;
+    position: relative;
+}

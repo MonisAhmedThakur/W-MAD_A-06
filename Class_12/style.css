@@ -1,0 +1,25 @@
+/* .box {
+    background: red;
+    height: 400 px;
+    width: 100%;
+    border: 1px solid green;
+}
+
+.child {
+    background-color: orange;
+    height: 50%;
+    width: 50%;
+} */
+/* 
+.box {
+    width: 500;
+    height: 300;
+    margin: 100px auto;
+    background-color:azure;
+    box-shadow: rgba(0,0,0,0.24) 0px 3px 8px;
+    border-radius: 150;
+} */
+
+.box{
+    background-color: red;
+}
