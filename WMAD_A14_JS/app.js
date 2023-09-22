@@ -312,3 +312,11 @@
 //     }
 // }
 // document.write("Text: The quick brown fox jumps over the lazy dog <br/>There are ", textIndex, " occurrence(s) of word 'the'");
+
+var passWord = "";
+var randomValues= "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$";
+for (var i = 0; i < 4; i++) {
+    var genPass = Math.floor(Math.random() * randomValues.length);
+    passWord += randomValues[genPass];
+}
+console.log(passWord);

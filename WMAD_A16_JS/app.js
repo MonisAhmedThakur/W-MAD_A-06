@@ -94,17 +94,20 @@
 
 //--------------Chapter#35-38_(Q08)----------------
 
-// var baseNum = +prompt("Enter Base value");
-// var perpNum = +prompt("Enter Perpendicular value:");
+var baseNum = +prompt("Enter Base value");
+var perpNum = +prompt("Enter Perpendicular value:");
 
-// var hypotenuseNum = 0;
-// function calculateHypotenuse(baseNum,perpNum){
-//     hypotenuseNum = Math.pow(baseNum,2) + Math.pow(perpNum,2);
-//     hypotenuseNum = Math.sqrt(hypotenuseNum);
-//     return hypotenuseNum;
-//     }
+var hypotenuseNum = 0;
+function calculateHypotenuse(baseNum,perpNum){
+    function square(){
+        hypoNum = Math.pow(baseNum,2) + Math.pow(perpNum,2);
+        return hypoNum;
+    }
+    hypotenuseNum = Math.sqrt(square());
+    return hypotenuseNum;
+    }
 
-// document.write("hypotenuse of a right angle triangle is: ",calculateHypotenuse(baseNum,perpNum));
+document.write("hypotenuse of a right angle triangle is: ",calculateHypotenuse(baseNum,perpNum));
 
 //--------------Chapter#35-38_(Q09)----------------
 

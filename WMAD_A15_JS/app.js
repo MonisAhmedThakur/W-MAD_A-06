@@ -105,10 +105,10 @@
 
 //--------------Chapter#31-34_(Q06)----------------
 
-// var currentDate = new Date();
-// document.write("Current Date: ", currentDate);
-// document.write("<br/>Elapsed milliseconds since January 1, 1970: ", Date.now());
-// document.write("<br/>Elapsed minutes since January 1, 1970: ", Date.now()/6000);
+var currentDate = new Date();
+document.write("Current Date: ", currentDate);
+document.write("<br/>Elapsed milliseconds since January 1, 1970: ", Date.now());
+document.write("<br/>Elapsed minutes since January 1, 1970: ", Date.now()/6000);
 
 //--------------Chapter#31-34_(Q07)----------------
 
