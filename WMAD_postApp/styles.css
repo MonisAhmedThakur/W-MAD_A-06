@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "YoungSerif";
+    src: url(/fonts/YoungSerif-Regular.ttf);
+}
+
+* {
+    font-family: "YoungSerif";
+}
+
+.navbar {
+    background-color: #00B8D4 !important;
+    height: 80px;
+}
+
+.navbar-brand {
+    color: azure;
+}
+
+.btn-primary{
+    background-color: #00B8D4;
+    border-color: #00B8D4;
+}
+
+.btn-primary:hover {
+    background-color: #00B8D4;
+    border-color: #00B8D4;
+}
+
+.btn-primary:active {
+    background-color: #00B8D4 !important;
+    border-color: #00B8D4 !important;
+}
+
+.swal2-actions {
+    width: 90% !important;
+    border-color: #00B8D4 !important;
+}
+
+.swal2-confirm {
+    background-color: #00B8D4 !important;
+    width: 100% !important;
+}
+
+.swal2-styled {
+    border-color: #00B8D4 !important;
+}
+
+.images-list {
+    justify-content: space-around;
+}
+
+.images-list-selected {
+    border: 2px solid #00B8D4;
+}
+
+.images-list > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.card-body {
+    background-size: cover;
+    background-position: center;
+}
+
+@media only screen and (max-width: 500px) {
+    .main{
+        padding: 10px 4px !important;
+    }
+}
