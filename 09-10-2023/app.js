@@ -22,7 +22,7 @@
 // console.log(student.class)
 
 
-var cars = {
+var  carVariants  = {
     honda: {
         civic: {
             type: {
@@ -137,6 +137,98 @@ var cars = {
             }
         }  
     },
+    suzuki: {
+        baleno: {
+            type: {
+                model: "Suzuki Baleno",
+                year: 2023,
+                price: 29000,
+                colors: ["blue", "silver", "black"],
+                doors: 5,
+                wheels: 4
+            }
+        },
+        ignis: {
+            type: {
+                model: "Suzuki Ignis",
+                year: 2023,
+                price: 27000,
+                colors: ["orange", "white", "gray"],
+                doors: 5,
+                wheels: 4
+            }
+        },
+        sx4: {
+            type: {
+                model: "Suzuki SX4",
+                year: 2023,
+                price: 31000,
+                colors: ["red", "black", "silver"],
+                doors: 4,
+                wheels: 4
+            }
+        },
+        celerio: {
+            type: {
+                model: "Suzuki Celerio",
+                year: 2023,
+                price: 25000,
+                colors: ["white", "gray", "blue"],
+                doors: 5,
+                wheels: 4
+            }
+        },
+        sCross: {
+            type: {
+                model: "Suzuki S-Cross",
+                year: 2023,
+                price: 33000,
+                colors: ["green", "blue", "black"],
+                doors: 5,
+                wheels: 4
+            }
+        },
+        swift: {
+            type: {
+                model: "Suzuki Swift",
+                year: 2023,
+                price: 32000,
+                colors: ["red", "white", "gray"],
+                doors: 5,
+                wheels: 4
+            }
+        },
+        vitara: {
+            type: {
+                model: "Suzuki Vitara",
+                year: 2023,
+                price: 35000,
+                colors: ["green", "silver", "blue"],
+                doors: 5,
+                wheels: 4
+            }
+        },
+        jimny: {
+            type: {
+                model: "Suzuki Jimny",
+                year: 2023,
+                price: 28000,
+                colors: ["black", "yellow", "white"],
+                doors: 3,
+                wheels: 4
+            }
+        },
+        alto: {
+            type: {
+                model: "Suzuki Alto", 
+                year: 2022, 
+                price: 30000, 
+                colors: ["silver", "black", "blue"], 
+                doors: 4, 
+                wheels: 4
+            }
+        }
+    },
     ford: {
         mustang: {
             type: {
@@ -222,6 +314,46 @@ var cars = {
                 price: 48000, 
                 colors: ["white", "silver", "black"], 
                 doors: 4, 
+                wheels: 4
+            }
+        },
+        q5: {
+            type: {
+                model: "Audi Q5",
+                year: 2023,
+                price: 52000,
+                colors: ["blue", "gray", "black"],
+                doors: 4,
+                wheels: 4
+            }
+        },
+        a6: {
+            type: {
+                model: "Audi A6",
+                year: 2023,
+                price: 56000,
+                colors: ["white", "silver", "gray"],
+                doors: 4,
+                wheels: 4
+            }
+        },
+        q3: {
+            type: {
+                model: "Audi Q3",
+                year: 2023,
+                price: 48000,
+                colors: ["red", "blue", "black"],
+                doors: 4,
+                wheels: 4
+            }
+        },
+        tt: {
+            type: {
+                model: "Audi TT",
+                year: 2023,
+                price: 51000,
+                colors: ["black", "white", "red"],
+                doors: 2,
                 wheels: 4
             }
         }
@@ -443,5 +575,54 @@ var cars = {
         } 
     },
 }
+
+function showVariants() {
+    var carSelect = document.getElementById("carSelect");
+    var variantContainer = document.getElementById("variantContainer");
+    var variantSelect = document.getElementById("variantSelect");
+    
+    var selectedCar = carSelect.value;
+    if (selectedCar) {
+        variantSelect.innerHTML = "<option value=''>Select Variant</option>";
+        for (var variant in carVariants[selectedCar]) {
+            variantSelect.innerHTML += `<option value='${variant}'>${variant}</option>`;
+        }
+        variantContainer.style.display = "block";
+    } else {
+        variantContainer.style.display = "none";
+        document.getElementById("detailsContainer").style.display = "none";
+    }
+}
+
+function showDetails() {
+    var variantSelect = document.getElementById("variantSelect");
+    var detailsContainer = document.getElementById("detailsContainer");
+    var carDetails = document.getElementById("carDetails");
+
+    var selectedCar = document.getElementById("carSelect").value;
+    var selectedVariant = variantSelect.value;
+
+    if (selectedVariant && selectedCar) {
+        var details = carVariants[selectedCar][selectedVariant];
+        carDetails.innerHTML = `
+            <p>Model: ${details.model}</p>
+            <p>Year: ${details.year}</p>
+            <p>Price: $${details.price}</p>
+            
+            <p>Number of Doors: ${details.doors}</p>
+            <p>Number of Wheels: ${details.wheels}</p>
+        `;
+        detailsContainer.style.display = "block";
+    } else {
+        detailsContainer.style.display = "none";
+    }
+}
+
+
+
+
+
+
+
     
 

@@ -7,6 +7,47 @@
 </head>
 <body>
     
+    <h1>Select a Car:</h1>
+    <select id="carSelect" onchange="showVariants()">
+        <option value="">Select Car</option>
+        <option value="honda">Honda</option>
+        <option value="toyota">Totota</option>
+        <option value="suzuki">Suzuki</option>
+        <option value="ford">Ford</option>
+        <option value="chevrolet">Chevrolet</option>
+        <option value="bmw">BMW</option>
+        <option value="audi">Audi</option>
+        <option value="mercedes">Mercedes Benz's</option>
+        <option value="nissan">Nissan</option>
+        <option value="hyundai">Hyundai</option>
+        <option value="kia">KIA</option>
+        <option value="volkswagen">Volks Wagen</option>
+        <option value="subaru">Subaru</option>
+        <option value="mazda">Mazda</option>
+        <option value="lexus">Lexus</option>
+        <option value="infiniti">Infiniti</option>
+        <option value="tesla">Tesla</option>
+        <option value="volvo">Volvo</option>
+        <option value="porsche">Porsche</option>
+        <option value="jaguar">Jaguar</option>
+        <option value="landRover">Land Rover</option>
+        <option value="acura">Acura</option>
+        <option value="mitsubishi">Mitsubishi</option>
+        <option value="jeep">Jeep</option>
+        <option value="buick">Buick</option>
+        
+    </select>
+
+    <div id="variantContainer" style="display:none;">
+        <h2>Select Variant:</h2>
+        <select id="variantSelect" onchange="showDetails()"></select>
+    </div>
+
+    <div id="detailsContainer" style="display:none;">
+        <h2>Details:</h2>
+        <div id="carDetails"></div>
+    </div>
+
 
 
     <script src="app.js"></script>
