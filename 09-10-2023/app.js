@@ -309,7 +309,7 @@ var carVariants  = {
     chevrolet: {
         camaro: {
             type: {
-                image: "",
+                image: "https://www.chevrolet.com/content/dam/chevrolet/na/us/english/index/vehicles/2024/performance/camaro/design/v2/2024-camaro-collector-ed-3v2.png?imwidth=960",
                 name: "Chevrolet Camaro", 
                 year: 2022, 
                 price: 50000, 
@@ -322,7 +322,7 @@ var carVariants  = {
     bmw: {
         thirdSeries: {
             type: {
-                image: "",
+                image: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_low/v1/editorial/bmw-3-series-my20-index-1.png",
                 name: "BMW-3-Series", 
                 year: 2022, 
                 price: 45000, 
@@ -335,7 +335,7 @@ var carVariants  = {
     audi: {
         a4: {
             type: {
-                image: "",
+                image: "https://cdni.autocarindia.com/Utils/ImageResizer.ashx?n=https://cms.haymarketindia.net/model/uploads/modelimages/Audi-A4-190120211207.jpg&w=730&h=484&q=75&c=1",
                 name: "Audi-A4", 
                 year: 2023, 
                 price: 48000, 
@@ -346,8 +346,8 @@ var carVariants  = {
         },
         q5: {
             type: {
-                image: "",
-                name: "Audi Q5",
+                image: "https://cache2.pakwheels.com/system/car_generation_pictures/6078/original/Audi_q5_2018.jpg?1640171345",
+                name: "Audi-Q5",
                 year: 2023,
                 price: 52000,
                 colors: ["blue", "gray", "black"],
@@ -357,8 +357,8 @@ var carVariants  = {
         },
         a6: {
             type: {
-                image: "",
-                name: "Audi A6",
+                image: "https://cache3.pakwheels.com/system/car_generation_pictures/5995/original/2021-Audi-A6-Premium-.png?1635346122",
+                name: "Audi-A6",
                 year: 2023,
                 price: 56000,
                 colors: ["white", "silver", "gray"],
@@ -368,8 +368,9 @@ var carVariants  = {
         },
         q3: {
             type: {
-                image: "",
-                name:2023,
+                image: "https://cache1.pakwheels.com/system/car_generation_pictures/6476/original/Audi_Q3.jpg?1658913566",
+                name:"Audi-Q3",
+                year:2023,
                 price: 48000,
                 colors: ["red", "blue", "black"],
                 doors: 4,
@@ -378,8 +379,8 @@ var carVariants  = {
         },
         tt: {
             type: {
-                image: "",
-                name: "Audi TT",
+                image: "https://www.motortrend.com/uploads/sites/10/2022/07/2021-audi-tt-4wd-coupe-angular-front.png?fit=around%7C875:492.1875",
+                name: "Audi-TT",
                 year: 2023,
                 price: 51000,
                 colors: ["black", "white", "red"],
@@ -391,7 +392,7 @@ var carVariants  = {
     mercedes:{
         cClass: {
             type: {
-                image: "",
+                image: "https://www.carlelo.com/laravel/public/uploads/variant-option/MmYPRc7zW5JAgf7WmbC6jfPgBh2kprRISQfJ7Syr.jpeg",
                 name: "Mercedes-Benzs C-Class", 
                 year: 2022, 
                 price: 52000, 
@@ -404,7 +405,7 @@ var carVariants  = {
     nissan: {
         altima: {
             type:{
-                image: "",
+                image: "https://www.motortrend.com/uploads/sites/10/2019/09/2020-nissan-altima-sr-fwd-sedan-angular-front.png",
                 name: "Nissan Altima", 
                 year: 2023, 
                 price: 32000, 
@@ -417,7 +418,7 @@ var carVariants  = {
     hyundai: {
         elantra: {
             type: {
-                image: "",
+                image: "https://bloximages.newyork1.vip.townnews.com/richmond.com/content/tncms/assets/v3/classifieds/d/d9/dd96ab11-f6dc-53cc-a48e-a9678f52558d/5ea65bbb1ab66.image.jpg",
                 name: "Hyundi Elantra", 
                 year: 2022, 
                 price: 25000, 
@@ -430,7 +431,7 @@ var carVariants  = {
     kia: {
         optima: {
             type: {
-                image: "",
+                image: "https://edgecast-img.yahoo.net/mysterio/api/1C2A9CA69BF192F1AD8CCEE5FDEEC58E2272ECEDD88AE007B49613E61C848795/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USC60KIC052C021001_2.jpg",
                 name: "Kia Optima", 
                 year: 2022, 
                 price: 28000, 
@@ -443,7 +444,7 @@ var carVariants  = {
     volkswagen: {
         jetta: {
             type: { 
-                image: "",
+                image: "https://www.cars.com/i/large/in/v2/stock_photos/bd16c3d4-f5e3-4697-8598-f4ea325476e7/e8a44422-9250-4241-8493-0c8692a6ec08.png",
                 name: "Volkswagen Jetta", 
                 year: 2023, 
                 price: 27000, 
@@ -456,7 +457,7 @@ var carVariants  = {
     subaru: {
         impreza: {
             type: { 
-                image: "",
+                image: "https://edgecast-img.yahoo.net/mysterio/api/26E75FAC4E5688DB146D9171FEE6BC6EB34E4FDA52A1FCAC3B1F7F99BDC049C9/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/CAD00SUC041B021001.jpg",
                 name: "Subaru Impreza", 
                 year: 2022, 
                 price: 26000, 
@@ -469,8 +470,8 @@ var carVariants  = {
     mazda: {
         mazda3: {
             type: {
-                image: "",
-                name: "Mazda3", 
+                image: "https://mazda-uae.com/media/zmadawqc/mazda3_bpl1_bejslah_46g_by6_ext_360_24_transparentpng_0005.png",
+                name: "Mazda-3", 
                 year: 2023, 
                 price: 29000, 
                 colors: ["red", "white", "black"], 
@@ -482,7 +483,7 @@ var carVariants  = {
     lexus: {
         es: {
             type: {
-                image: "",
+                image: "https://www.lexus.com/content/dam/lexus/images/models/es/2024/visualizer/350/exterior/17-twin-v-spoke-alloy-dark-metallic-machined-finish/eminent-white-pearl/small-1.jpg",
                 name: "Lexus ES", 
                 year: 2022, 
                 price: 48000, 
@@ -495,7 +496,7 @@ var carVariants  = {
     infiniti: {
         q50: {
             type: {
-                image: "",
+                image: "https://orag-vehicle-images.s3.us-west-2.amazonaws.com/2023/INFINITI/Q50/cc_2023INC250006_01_1280_KH3.png",
                 name: "Infiniti Q50", 
                 year: 2022, 
                 price: 50000, 
@@ -508,7 +509,7 @@ var carVariants  = {
     tesla: {
         model3: {
             type:{
-                image: "",
+                image: "https://www.tesla.com/ownersmanual/images/GUID-BEE67A59-6DD7-460C-9C49-0DD47E707A02-online-en-US.png",
                 name: "Tesla Model 3", 
                 year: 2023, 
                 price: 50000, 
@@ -521,7 +522,7 @@ var carVariants  = {
     volvo: {
         s60: {
             type: {
-                image: "",
+                image: "https://media.chromedata.com/MediaGallery/media/MjkzOTU4Xk1lZGlhIEdhbGxlcnk/cGozHsYJN2iBDDwtgeQqc_B33PkKu1pSpcq3HX9-7XSxXLV-B0odQbRYGLZs9BXyLjtpiTNqqIQkWlqjXYnmSwnB4d0MX7cfdhHfS_2nydc_NtJRCEMpErXhLaXVu__3REPHTjffwj4qJ80eri1ImTaXC8JcLZbeqJfPDqRiQw8/cc_2023VOC170020_01_640_723.png",
                 name: "Volvo S60", 
                 year: 2022, 
                 price: 47000, 
@@ -534,7 +535,7 @@ var carVariants  = {
     porsche: {
         panamera: {
             type: {
-                image: "",
+                image: "https://configurator.porsche.com/model-start/pictures/97CFT1/extcam01.webp",
                 name: "Porsche Panamera", 
                 year: 2023, 
                 price: 95000, 
@@ -547,7 +548,7 @@ var carVariants  = {
     jaguar: {
         xe: {
             type: {
-                image: "",
+                image: "https://static.cdn.circlesix.co/styles/large_article/s3/uploads/posts/2019/02/00cbbe058e298068b0f2423cf7df0b2c.jpg?itok=elE-U2DP",
                 name: "Jaguar XE", 
                 year: 2022, 
                 price: 54000, 
@@ -560,7 +561,7 @@ var carVariants  = {
     landRover: {
         discovery: {
             type: {
-                image: "",
+                image: "https://cache4.pakwheels.com/system/car_generation_pictures/5877/original/Land-Rover-Discovery_2018.png?1632735024",
                 name: "Land-Rover Discovery", 
                 year: 2023, 
                 price: 65000, 
@@ -573,7 +574,7 @@ var carVariants  = {
     acura: {
         tlx: {
             type: {
-                image: "",
+                image: "https://edgecast-img.yahoo.net/mysterio/api/87C0B639C1271D6E37C0724E53A9B6BE0050DDBD8F5091924CB0225B8BD7ADB0/autoblog/resizefill_w660_h372;quality_80;format_webp;cc_31536000;/https://s.aolcdn.com/commerce/autodata/images/USD10ACC181A021001.jpg",
                 name: "Acura TLX", 
                 year: 2022, 
                 price: 45000, 
@@ -586,7 +587,7 @@ var carVariants  = {
     mitsubishi: {
         outlander: {
             type: {
-                image: "",
+                image: "https://mitsubishi-motors.cl/wp-content/uploads/2022/05/OUT22_Rojo-Diamante-Metalico-P62_1200x550_1.png",
                 name: "Mitsubishi Outlander", 
                 year: 2023, 
                 price: 35000, 
@@ -599,20 +600,42 @@ var carVariants  = {
     jeep: {
         cherokee: {
             type: {
-                image: "",
+                image: "https://cars.usnews.com/static/images/Auto/izmo/i159615605/2023_jeep_cherokee_angularfront.jpg",
                 name: "Jeep Cherokee", 
                 year: 2022, 
-                price: 37000, 
+                price: 370000, 
                 colors: ["red", "white", "black"], 
                 doors: 4, 
                 wheels: 4
             }
-        } 
+        },
+        gladiator: {
+            type: {
+                image: "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_default/v1/editorial/vhs/Gladiator.png",
+                name: "Jeep Gladiator",    
+                year: 2022, 
+                price: 240000, 
+                colors: ["red", "white", "black"], 
+                doors: 4, 
+                wheels: 4
+            }
+        }, 
+        renegade: {
+            type: {
+                image: "https://inv.assets.ansira.net/ChromeColorMatch/us/TRANSPARENT_cc_2022JES170034_01_1280_PPE.png",
+                name: "Jeep Renegade",    
+                year: 2022, 
+                price: 780000, 
+                colors: ["red", "white", "black"], 
+                doors: 4, 
+                wheels: 4
+            }
+        }, 
     },
     buick: {
         regal: {
             type: {
-                image: "",
+                image: "https://www.motortrend.com/uploads/sites/10/2019/11/2020-buick-regal-sportback-essence-5door-hatchback-angular-front.png?fit=around%7C875:492.1875",
                 name: "Buick Regal", 
                 year: 2022, 
                 price: 40000, 
