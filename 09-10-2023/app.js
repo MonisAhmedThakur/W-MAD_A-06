@@ -698,7 +698,7 @@ function onCompanyChange() {
 
 function filterCars() {
     var carData = carVariants[company.value][brand.value].type;
-    allCars.innerHTML += `
+    allCars.innerHTML = `
             <div class="col mb-2">
                 <div class="card">
                 <img src="${carData.image}" class="card-img-top" alt="...">
