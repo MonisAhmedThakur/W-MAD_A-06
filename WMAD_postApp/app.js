@@ -40,6 +40,16 @@ function selectImage(src){
     event.target.className += " images-list-selected";
 }
 
+function reDirection() {
+    window.location.href = "./index.html"
+}
+
+function logOut() {
+    localStorage.clear();
+
+    setTimeout(reDirection, 2000)
+}
+
 
 
 
