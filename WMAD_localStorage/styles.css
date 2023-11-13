@@ -10,23 +10,29 @@
 .navbar {
     background-color: #00B8D4 !important;
     height: 80px;
+    font-weight: 600;
 }
 
 .navbar-brand {
     color: azure;
+    font-size: 30px;
 }
 
-.btn-primary{
-    background-color: #00B8D4;
-    border-color: #00B8D4;
+body {
+    margin: auto 0px;
 }
 
-.btn-primary:hover {
-    background-color: #00B8D4;
-    border-color: #00B8D4;
+.btn-outline-success{
+    background-color: #e2e9ea;
+    border-color: #e2e9ea;
 }
 
-.btn-primary:active {
+.btn-outline-success:hover {
+    background-color: #e2e9ea;
+    border-color: #113439;
+}
+
+.btn-outline-success:active {
     background-color: #00B8D4 !important;
     border-color: #00B8D4 !important;
 }
@@ -63,6 +69,15 @@
 .card-body {
     background-size: cover;
     background-position: center;
+}
+
+.editor {
+    padding: 0px 2px;
+}
+
+.btn-submit {
+    margin-top: 10px;
+    border-radius: 5px;
 }
 
 @media only screen and (max-width: 500px) {
