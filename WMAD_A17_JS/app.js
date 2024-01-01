@@ -2,7 +2,7 @@ var forwardCy = 0;
 var forwardWo = 1000;
 
 
-function cyclops(){
+function gameplay(){
     console.log(event.keyCode);
     var characterCy = document.getElementById('characterCy');
     if(event.keyCode === 68 && forwardCy < 1000) {
@@ -24,12 +24,9 @@ function cyclops(){
             characterCy.src = 'images/cy-stance.gif';
             characterCy.style.width = '200px';
             characterCy.style.height = '200px';
-            characterCy.style.bottom = '30px';
+            characterCy.style.bottom = '85px';
         }, 2000);
     }
-}
-
-function wolverine(){
     var characterWo = document.getElementById('characterWo');
     if(event.keyCode === 74  && forwardWo > 20) {
         forwardWo = forwardWo - 20;
@@ -59,5 +56,4 @@ function wolverine(){
     }
 }
 
-window.onkeydown = cyclops;
-window.onkeyup = wolverine;
+window.onkeydown = gameplay;
